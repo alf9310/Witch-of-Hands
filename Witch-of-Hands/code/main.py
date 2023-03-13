@@ -13,7 +13,7 @@ class Game:
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
         pygame.display.set_caption('Witch of Hands')
-        # pygame.display.set_icon() TODO create icon
+        # TODO create iconpygame.display.set_icon(pygame.image.load('../graphics/test/rock.png'))
         self.clock = pygame.time.Clock()
 
         self.level = Level()
