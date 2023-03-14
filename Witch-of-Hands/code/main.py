@@ -4,7 +4,7 @@ __credits__ = ["RPG framework: Clear Code"]
 
 import pygame, sys
 from settings import *
-from debug import Debug
+from debug import debug
 from level import Level
 
 class Game:
